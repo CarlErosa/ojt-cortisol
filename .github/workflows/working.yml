@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config --global user.email "drivas.aillerr@gmail.com"
-          git config --global user.name "daveaillerr"
+          git config --global user.email "carlmelvinerosa3@gmail.com"
+          git config --global user.name "CarlErosa"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Productive Work"
           git push
